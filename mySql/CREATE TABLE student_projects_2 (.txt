@@ -1,0 +1,32 @@
+CREATE TABLE student_projects (
+student_id INT(3)AI 
+teacher_id INT(3)AI
+date_started DATETIME ,
+date_submitted DATETIME,
+date_completed DATETIME,
+submission VARCHAR(200),
+);
+
+INSERT INTO student_projects (date_started, date_submitted, date_completed, submission)
+VALUES
+('2020-07-01 23:59:59','2020-07-12 23:59:59','2020-07-22 23:59:59','https://cdn.filestackco
+ntent.com/VfOA9GyQC
+O6oZpOvroAi'),
+('2020-07-02 23:59:59','2020-07-13 23:59:59','2020-07-23 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAj'),
+('2020-07-03 23:59:59','2020-07-14 23:59:59','2020-07-24 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAk'),
+('2020-07-04 23:59:59','2020-07-15 23:59:59','2020-07-25 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAl'),
+('2020-07-05 23:59:59','2020-07-16 23:59:59','2020-07-26 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAm'),
+('2020-07-06 23:59:59','2020-07-17 23:59:59','2020-07-27 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAn'),
+('2020-07-07 23:59:59','2020-07-18 23:59:59','2020-07-28 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAo'),
+('2020-07-08 23:59:59','2020-07-19 23:59:59','2020-07-29 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAp'),
+('2020-07-09 23:59:59','2020-07-20 23:59:59','2020-07-30 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAq'),
+('2020-07-10 23:59:59','2020-07-21 23:59:59','2020-07-31 23:59:59','https://cdn.filestackcontent.com/VfOA9GyQC
+O6oZpOvroAr');
